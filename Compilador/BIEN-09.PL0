@@ -1,0 +1,23 @@
+const menosUno = -1, DOS := 2;
+var cont, cant, connell;
+procedure ciclo;
+begin
+ connell := connell + menosUno;
+while not (cont > cant) do
+ begin
+ cont := cont + 1;
+ write (connell, ' ');
+ connell := connell + dos
+ end
+end;
+begin
+cant := 0;
+ connell := 2;
+ while cant < 11 do
+ begin
+ cont := 1;
+ cant := cant - menosUno;
+ call ciclo
+ end;
+writeln
+end.

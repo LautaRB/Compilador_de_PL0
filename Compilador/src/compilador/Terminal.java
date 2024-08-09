@@ -1,0 +1,45 @@
+package compilador;
+
+public enum Terminal {
+        IF,
+        ELSE,
+        CALL,
+        CADENA_LITERAL,
+        NUMERO,
+        ASIGNACION,
+        NULO,
+        IDENTIFICADOR,
+        EOF,
+        MAS,
+        CONST,
+        VAR,
+        PROCEDURE,
+        BEGIN,
+        END,
+        THEN,
+        WHILE,
+        DO,
+        //***** <┐
+        NOT,  // │
+        //***** -┘
+        ODD,
+        MENOS,
+        POR,
+        DIVIDIDO,
+        IGUAL,
+        COMA,
+        PUNTO_Y_COMA,
+        MAYOR,
+        MENOR,
+        MENOR_IGUAL,
+        MAYOR_IGUAL,
+        DISTINTO,
+        PUNTO,
+        READLN,
+        WRITELN,
+        WRITE,
+        ABRE_PARENTESIS,
+        CIERRA_PARENTESIS,
+        HALT,
+        TO
+}
